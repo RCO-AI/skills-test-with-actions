@@ -50,23 +50,21 @@ def test_get_nth_fibonacci_one():
     """Test with n=1."""
     # Arrange
     n = 1
-
     # Act
     result = get_nth_fibonacci(n)
-
     # Assert
     assert result == 1
 
 
  def test_get_nth_fibonacci_ten():
-     """Test with n=10."""
-     # Arrange
-     n = 10
-     # Act
-     result = get_nth_fibonacci(n)
-     #
-     # Assert
-     assert result == 55
+    """Test with n=10."""
+    # Arrange
+    n = 10
+    # Act
+    result = get_nth_fibonacci(n)
+    #
+    # Assert
+    assert result == 55
 
 def test_area_of_circle_negative_radius():
    """Test with a negative radius to raise ValueError."""
